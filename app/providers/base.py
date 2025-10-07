@@ -18,7 +18,3 @@ class NotificationProvider(ABC):
     @abstractmethod
     def can_handle(self, request: NotificationRequest) -> bool:
         pass
-
-    async def health_check(self):
-        """Проверка доступности провайдера"""
-        return True
