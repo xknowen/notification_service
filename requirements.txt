@@ -5,3 +5,4 @@ aiosmtplib>=3.0.0
 python-telegram-bot>=20.0.0
 asyncio
 typing-extensions
+email-validator>=2.0.0
