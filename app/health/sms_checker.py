@@ -5,7 +5,7 @@ from health.base import HealthChecker
 from core.config import settings
 
 
-class SMSHealthChecher(HealthChecker):
+class SMSHealthChecker(HealthChecker):
     def __init__(self):
         self.api_key = settings.SMS_API_KEY
         self.api_url = settings.SMS_API_URL
